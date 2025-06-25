@@ -5,7 +5,6 @@ import LearnMoreImg2 from "../assets/learn-more-img-2.jpg";
 export default function LearnMore() {
   return (
     <div className="py-4 sm:py-6 px-4 sm:px-6 lg:px-8">
-      {/* Top Content Section */}
       <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8 mb-8">
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <p className="text-sm sm:text-base text-gray-600 mb-2">
@@ -37,11 +36,8 @@ export default function LearnMore() {
         </div>
       </div>
 
-      {/* Gradient Cards Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
-        {/* Fresh Radiant Skin Card */}
         <div className="relative h-80 sm:h-96 lg:h-[420px] rounded-3xl overflow-hidden group cursor-pointer">
-          {/* Background Image */}
           <div
             className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
             style={{
@@ -49,10 +45,8 @@ export default function LearnMore() {
             }}
           ></div>
 
-          {/* Bottom Gradient Box */}
           <div className="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-black/95 via-[#76C0DB]/90"></div>
 
-          {/* Content */}
           <div className="relative z-10 p-6 sm:p-8 h-full flex flex-col justify-end text-white">
             <h2 className="uppercase text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
               Fresh, Radiant Skin
@@ -68,9 +62,7 @@ export default function LearnMore() {
           </div>
         </div>
 
-        {/* Long Lasting Fragrance Card */}
         <div className="relative h-80 sm:h-96 lg:h-[420px] rounded-3xl overflow-hidden group cursor-pointer">
-          {/* Background Image */}
           <div
             className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
             style={{
@@ -78,10 +70,8 @@ export default function LearnMore() {
             }}
           ></div>
 
-          {/* Bottom Gradient Box */}
           <div className="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-black/95 via-[#30A8A9]/90"></div>
 
-          {/* Content */}
           <div className="relative z-10 p-6 sm:p-8 h-full flex flex-col justify-end text-white">
             <h2 className="uppercase text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
               LONG LASTING FRAGRANCE

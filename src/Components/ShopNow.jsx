@@ -6,7 +6,6 @@ import ShopNowImg2 from "../assets/shop-now-img-2.png";
 export default function ShopNow() {
   return (
     <div className="bg-[#fff1dc] py-4 sm:py-6 px-4 sm:px-6 lg:px-8 space-y-8 lg:space-y-12 flex flex-col items-center justify-center">
-      {/* First Section - Image Left, Content Right */}
       <div className="space-x-12 flex flex-col lg:flex-row items-center gap-1 sm:gap-2 lg:gap-1">
         <img
           src={HoneyImg}
@@ -34,7 +33,6 @@ export default function ShopNow() {
         </div>
       </div>
 
-      {/* Second Section - Content Left, Image Right */}
       <div className="flex flex-col lg:flex-row-reverse items-center ">
         <div className="flex relative">
           <img

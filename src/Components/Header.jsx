@@ -11,13 +11,11 @@ export default function Header() {
     <header className="bg-[#fff1dc] py-2 px-4 sm:px-6 lg:px-8 h-screen lg:h-[90vh] overflow-hidden">
       <Navbar />
 
-      {/* Main Content Container */}
       <div className="flex flex-col lg:flex-row items-center justify-between py-4 sm:py-6 lg:py-8 gap-6 lg:gap-4 h-full">
         {/* Mobile: Show bottles first, Desktop: Show content first */}
         <div className="w-full lg:w-1/2 order-2 lg:order-1 px-2 sm:px-4 lg:px-0">
           {/* Review Section */}
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-6">
-            {/* Review Images */}
             <div className="flex -space-x-2">
               <img
                 src={review}
@@ -83,12 +81,10 @@ export default function Header() {
 
         {/* Right Side - Bottles and "STRONG" */}
         <div className="w-full lg:w-1/2 order-1 lg:order-2 flex flex-col justify-between items-center lg:items-end relative h-full py-4">
-          {/* "STRONG" Heading - Positioned at top right */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center lg:text-right self-center lg:self-end relative z-10">
             STRONG
           </h1>
 
-          {/* Bottles Container - Stacked Vertically */}
           <div className="flex flex-col relative">
             <img src={HeaderBottle2} className="w-[420px] h-auto mr-12" />
             <img

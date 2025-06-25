@@ -51,7 +51,6 @@ export default function ExploreProducts() {
             </div>
           </div>
 
-          {/* Product Card 2 */}
           <div className="relative rounded-[50px] sm:rounded-[60px] lg:rounded-[80px] xl:rounded-[100px] overflow-hidden aspect-[3/4] group hover:scale-105 transition-transform duration-300">
             <img
               src={ExploreProductsImg}
@@ -64,7 +63,6 @@ export default function ExploreProducts() {
             </div>
           </div>
 
-          {/* Product Card 3 - Featured */}
           <div className="relative rounded-[50px] sm:rounded-[60px] lg:rounded-[80px] xl:rounded-[100px] overflow-hidden aspect-[3/4] group hover:scale-105 transition-transform duration-300">
             <img
               src={ExploreProductsImg2}
@@ -77,7 +75,6 @@ export default function ExploreProducts() {
             </div>
           </div>
 
-          {/* Product Card 4 */}
           <div className="relative rounded-[50px] sm:rounded-[60px] lg:rounded-[80px] xl:rounded-[100px] overflow-hidden aspect-[3/4] group hover:scale-105 transition-transform duration-300">
             <img
               src={ExploreProductsImg}
@@ -90,7 +87,6 @@ export default function ExploreProducts() {
             </div>
           </div>
 
-          {/* Product Card 5 */}
           <div className="relative rounded-[50px] sm:rounded-[60px] lg:rounded-[80px] xl:rounded-[100px] overflow-hidden aspect-[3/4] group hover:scale-105 transition-transform duration-300 col-span-2 sm:col-span-1">
             <img
               src={ExploreProductsImg}
